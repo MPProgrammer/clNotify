@@ -2,7 +2,7 @@
   "name": "cl-notify",
   "version": "1.0.0",
   "description": "A lightweight JavaScript and CSS notification library with support for multiple positions, auto-close, icons, and progress bars.",
-  "main": "clNotify.js",
+  "main": "src/clNotify.min.js",
   "scripts": {
     "test": "echo \"No tests specified\" && exit 0"
   },
