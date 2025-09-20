@@ -13,6 +13,16 @@ A lightweight, dependency-free JavaScript library for displaying stackable notif
 
 ---
 
+## Demo
+
+You can see a working demo of **clNotify** notifications in action:
+
+[View Demo](https://mpprogrammer.github.io/clNotify/demo/)
+
+The demo page includes buttons for each notification type (success, error, warning, info) so you can quickly test the library.
+
+---
+
 ## Installation
 
 To use clNotify, add the stylesheet inside the <head> of your HTML::
