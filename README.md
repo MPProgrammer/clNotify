@@ -15,11 +15,22 @@ A lightweight, dependency-free JavaScript library for displaying stackable notif
 
 ## Installation
 
-Include the script (and your own CSS for styling):
+To use clNotify, add the stylesheet inside the <head> of your HTML::
 
 ```html
-<link rel="stylesheet" href="clnotify.css">
-<script src="clnotify.js"></script>
+<head>
+...
+<link rel="stylesheet" href="src/clNotify.css" />
+...
+</head>
+```
+
+and include the JavaScript file just before the closing </body> tag:
+
+```html
+...
+<script src="src/clNotify.js"></script>
+</body>
 ```
 
 The library attaches a global object `clNotify` to `window`.
@@ -51,7 +62,7 @@ clNotify.config({
   showIcon: true,
   progressBar: true,
   icons: {
-    success: '✓',                 // Unicode
+    success: '✓', // Unicode
     error: '<i class="icon-x"></i>' // HTML/SVG allowed
   }
 });
@@ -128,3 +139,10 @@ No external dependencies.
 ## License
 
 MIT License – use freely in personal or commercial projects.
+
+---
+
+## Author
+
+**Mariusz Panek**  
+[Website](https://codelarix.dev) | [Email](mailto:mariusz@codelarix.dev)
