@@ -1,0 +1,25 @@
+{
+  "name": "clNotify",
+  "version": "1.0.0",
+  "description": "A lightweight JavaScript and CSS notification library with support for multiple positions, auto-close, icons, and progress bars.",
+  "main": "clNotify.js",
+  "scripts": {
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/clnotify.git"
+  },
+  "keywords": [
+    "notifications",
+    "javascript",
+    "css",
+    "ui"
+  ],
+  "author": "Mariusz Panek <mariusz@codelarix.dev> (https://codelarix.dev)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MPProgrammer/clNotify/issues"
+  },
+  "homepage": "https://github.com/MPProgrammer/clNotify#readme"
+}
