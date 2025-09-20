@@ -1,3 +1,11 @@
+/**!
+ * clNotify.js v1.0.0
+ * Simple notification library
+ * https://github.com/MPProgrammer/clNotify
+ *
+ * @author Panek Mariusz <mariusz@codelarix.dev> (https://codelarix.dev)
+ * @license MIT
+ */
 (function (global) {
     /**
      * Default configuration for the notification library.
