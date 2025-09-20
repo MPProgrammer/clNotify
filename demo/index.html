@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>clNotify Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- clNotify CSS -->
+    <link rel="stylesheet" href="../src/clNotify.min.css">
+
+    <!-- Optional: simple styling for demo -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        h1 {
+            margin-bottom: 10px;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+        button {
+            margin: 5px;
+            padding: 10px 15px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>clNotify Demo</h1>
+    <p>Click the buttons below to show different notification types:</p>
+
+    <button id="btnSuccess">Show Success</button>
+    <button id="btnError">Show Error</button>
+    <button id="btnWarning">Show Warning</button>
+    <button id="btnInfo">Show Info</button>
+
+    <!-- clNotify JS -->
+    <script src="../src/clNotify.min.js"></script>
+
+    <script>
+        document.getElementById('btnSuccess').addEventListener('click', () => {
+            clNotify.success('Success', 'This is a success notification!', { duration: 4000, progressBar: true });
+        });
+
+        document.getElementById('btnError').addEventListener('click', () => {
+            clNotify.error('Error', 'This is an error notification!', { duration: 4000, progressBar: true });
+        });
+
+        document.getElementById('btnWarning').addEventListener('click', () => {
+            clNotify.warning('Warning', 'This is a warning notification!', { duration: 4000, progressBar: true });
+        });
+
+        document.getElementById('btnInfo').addEventListener('click', () => {
+            clNotify.info('Info', 'This is an info notification!', { duration: 4000, progressBar: true });
+        });
+    </script>
+</body>
+</html>
