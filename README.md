@@ -1,4 +1,6 @@
-# clNotify
+# clNotify [![NPM Downloads](https://img.shields.io/npm/dw/cl-notify?style=flat&label=npm)](https://www.npmjs.com/package/cl-notify) [![Static Badge](https://img.shields.io/badge/license-MIT-blue)](https://github.com/MPProgrammer/clNotify/blob/main/LICENSE)
+
+
 
 A lightweight, dependency-free JavaScript library for displaying stackable notifications with optional icons and progress bars.
 
